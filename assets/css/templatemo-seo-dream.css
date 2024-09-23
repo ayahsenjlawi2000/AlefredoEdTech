@@ -247,8 +247,44 @@ body {
   border-bottom: 2px solid #42BFAD!important;
 }
 
+#slide-radio  .swiper-slide h2 {
+  font-size: 15px ;
+}
 
-/* 
+
+ .player {
+/* Adjust padding around the player */
+  background-color: #f9f9f9; /* Optional background color */
+  border-radius: 10px; /* Optional rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+
+.play-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.play-icon svg {
+  fill: currentColor;
+}
+
+.play-icon.rounded-full {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  width: 40px; /* Fixed width for icons */
+  height: 40px; /* Fixed height for icons */
+  margin-right: 8px; /* Add space between icons */
+}
+
+.play-icon.rounded-full:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+
+}
+
 ---------------------------------------------
 header
 --------------------------------------------- 

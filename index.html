@@ -11,6 +11,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+    
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <title>AlefredoEdTech</title>
 
     <!-- Bootstrap core CSS -->
@@ -29,7 +39,34 @@ TemplateMo 563 SEO Dream
 https://templatemo.com/tm-563-seo-dream
 
 -->
+<style>
+  .card-header:hover {
+      cursor: pointer;
+      background-color:aliceblue;
 
+  }
+  .card-header{
+    background-color:aliceblue;
+  }
+  .clients-slider {
+            width: 100%;
+            height: 300px; /* Adjust height as needed */
+        }
+        .card {
+            padding: 20px;
+            border: 1px solid #ddd; /* Optional styling */
+            border-radius: 8px; /* Optional styling */
+            text-align: center;
+        }
+        .track {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        img {
+            margin-right: 10px; /* Space between image and waveform */
+        }
+</style>
 </head>
 
 <body>
@@ -65,7 +102,8 @@ https://templatemo.com/tm-563-seo-dream
               <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
               <li class="scroll-to-section"><a href="#features">Services</a></li>
               <li class="scroll-to-section"><a href="#about">About Us</a></li>
-              <li class="scroll-to-section"><a href="#services">Our Clients</a></li>
+              <li class="scroll-to-section"><a href="#services">Our Partners</a></li>
+              <li class="scroll-to-section"><a href="#FAQ'S">FAQ'S</a></li>
               <li class="scroll-to-section"><a href="#contact">Contact Us</a></li>
               <li class="scroll-to-section">
                 <div class="main-blue-button"><a href="#features">Get Started</a></div>
@@ -92,7 +130,11 @@ https://templatemo.com/tm-563-seo-dream
               <div class="left-content pr-5 header-text wow fadeInLeft " data-wow-duration="1s" data-wow-delay="1s">
                 <div class="row">
                   <div class="col-12">
-                    <h2 class="text-center text-wrap  fs-sm-4">WELCOME TO AlefredoEdTech</h2>
+                    <h2 class="text-left text-wrap  fs-sm-4">WELCOME TO AlefredoEdTech</h2>
+                    <p class="pl-5 fw-bold">Alefredo EdTech offers holistic educational solutions,
+                       including interactive mock exams to assess and improve student performance,
+                       along with teacher summaries and educational materials in various formats.
+                       Our platform also provides access to an affordable marketplace for used academic books.</p>
                 </div>
                 
                 
@@ -106,7 +148,7 @@ https://templatemo.com/tm-563-seo-dream
             </div>
             <div class="col-lg-6">
               <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                <img src="assets/images/why-us.png" alt="">
+                <img src="assets/images/learners2.png" alt="">
               </div>
             </div>
           </div>
@@ -119,7 +161,7 @@ https://templatemo.com/tm-563-seo-dream
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="features-content">
+          <div class="features-content" style="background-color:  #f7f7f7;">
             <div class="row">
               <div class="col-lg-3">
                 <div class="features-item second-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
@@ -127,7 +169,9 @@ https://templatemo.com/tm-563-seo-dream
                   <a href="https://alefredoexams.com/">
                     <img class="img-fluid mt-2 logo" src="assets/images/logo exams.png" alt="Alefredo Exams Logo">
                   </a>
-                  
+                <h5 class="pt-4 mt-2 fw-bold" style="color: #42BFAD;"> Alefredo Exams  </h5>
+               
+              
                   <div class="line-dec"></div>
                   <p>BOOST your exam grades to an A+ level with the help of more than 40,000 Interactive mock exams & questions</p>
                 </div>
@@ -138,17 +182,30 @@ https://templatemo.com/tm-563-seo-dream
                   <a href="https://alefredobooks.com/">
                   <img   class="img-fluid mt-2 logo" height="70px" width="70px" mt-10 src="assets/images/logo books.png" alt="" >
                 </a>
+                <h5 class="pt-4 mt-2 fw-bold" style="color: #42BFAD;"> Alefredo Books <i class="fas fa-globe"></i></h5>
                   <div class="line-dec"></div>
-                  <p>Enhance your knowledge with interactive content and advanced mock exams.</p>
+                  <p>An online marketplace for academic books, past papers, 
+                    and teacher summaries, available in both digital and paper formats, 
+                    serving all international systems, including American, British,
+                     and the IB diploma. Users worldwide can purchase products from this platform. Moreover, 
+                     teachers can sell their notes on this platform regardless of their location. 
+                    However, the “selling your books” service on this platform is currently limited to students in Jordan."</p>
                 </div>
               </div>
               <div class="col-lg-3">
                 <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
-                  <a href="https://uae.alefredobooks.com/">
+                  <a href="https://uae.alefredobooks.com/"> 
                   <img   class="img-fluid mt-2 logo" height="70px" width="70px" mt-10 src="assets/images/alefredobooks logo flags-01.png" alt="" >
                   </a>
+                  <h5 class="pt-4 mt-2 fw-bold" style="color: #42BFAD;"> Alefredo Books <span class="flag-icon flag-icon-ae"></span></h5>
                   <div class="line-dec"></div>
-                  <p>Practice with thousands of mock exams to ensure you’re ready for anything. </p>
+              
+                  <p>"An online marketplace dedicated to the UAE market, offering academic books, 
+                    past papers, and teacher summaries in both digital and paper formats.
+                     It serves all international systems, including American, British, the IB diploma, and UAE national systems. 
+                     Users worldwide can purchase products from this platform. Furthermore, teachers can sell their notes on this platform, 
+                     regardless of their location.
+                     However, the 'selling your books' service on this platform is currently limited to students in the UAE."</p>
                 </div>
               </div>
               <div class="col-lg-3">
@@ -156,8 +213,13 @@ https://templatemo.com/tm-563-seo-dream
                   <a href="https://ksa.alefredobooks.com/">
                   <img   class="img-fluid mt-2 logo" height="70px" width="70px" mt-10 src="assets/images/alefredobooks logo flags-02.png" alt="" >
                   </a>
+                  <h5 class="pt-4 mt-2 fw-bold" style="color: #42BFAD;"> Alefredo Books <span class="flag-icon flag-icon-sa"></span></h5>
                   <div class="line-dec"></div>
-                  <p>Test your knowledge with our comprehensive mock tests.</p>
+                  <p>"An online marketplace dedicated to the KSA market, offering academic books, past papers, and teacher summaries in both digital and paper formats.
+                     It serves all international systems, including American, British, the IB diploma, and KSA national systems. 
+                     Users worldwide can purchase products from this platform. Furthermore, teachers can sell their notes on this platform,
+                      regardless of their location.
+                     However, the 'selling your books' service on this platform is currently limited to students in the KSA."</p>
                 </div>
               </div>
             </div>
@@ -250,13 +312,44 @@ https://templatemo.com/tm-563-seo-dream
       <div class="row">
         <div class="col-lg-6">
           <div class="left-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-            <img src="assets/images/about-left-image.png" alt="">
+            <img src="assets/images/about.jpeg" alt="">
           </div>
         </div>
         <div class="col-lg-6 align-self-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
           <div class="section-heading">
-            <h1 style="color: #33ccc5; font-weight: bold;">About Us</h1>
-            <h2 style="font-weight: lighter;"> Alefredo EdTech offers holistic educational solutions, including interactive mock exams to assess and improve student performance, along with teacher summaries and educational materials in various formats. Our platform also provides access to an affordable marketplace for used academic books.</h2>
+            <h1 class="text-center" style="color: #33ccc5; font-weight: bold;">About Us</h1>
+            <div class="row content">
+              <div class="col-lg-6">
+                <h2 class="fw-bold fs-5"style="color: #33ccc5; font-weight: bold;">
+                  Covered Systems:
+                </h2>
+                <ul class="fw-bold">
+                  <li><i class="ri-check-double-line" style="color: #33ccc5; font-weight: bold;" ></i> American System: AP, ACT, SAT</li>
+                  <li><i class="ri-check-double-line" style="color: #33ccc5; font-weight: bold;"></i>British System: Cambridge (IGCSE, Olevel & Alevel), Edexcel, Check
+                    Point (Primary and Secondary)</li>
+                  <li><i class="ri-check-double-line" style="color: #33ccc5; font-weight: bold;"></i> IB Diploma: Higher Level and Standard level</li>
+                </ul>
+                <!-- <p>Stay tuned for more systems to be added soon</p> -->
+              </div>
+              <div class="col-lg-6">
+                <h2 class="fw-bold fs-5"style="color: #33ccc5; font-weight: bold;">
+                  Our Services include::
+                </h2>
+                <ul class="fw-bold">
+                  <li><i class="ri-check-double-line" style="color: #33ccc5; font-weight: bold;"></i> Interactive mock exams</li>
+                  <li><i class="ri-check-double-line" style="color: #33ccc5; font-weight: bold;"></i>Past Papers & Teacher summaries (available in digital and paper
+                    formats for all codes, levels, and subjects)</li>
+                  <li><i class="ri-check-double-line" style="color: #33ccc5; font-weight: bold;"></i> A marketplace for buying and selling used academic textbooks</li>
+                  <li><i class="ri-check-double-line" style="color: #33ccc5; font-weight: bold;"></i>All the resources you need to excel in your exams.</li>
+                </ul>
+    
+    
+              </div>
+              <div >
+                <a href="#" class="btn-learn-more">Learn More</a>
+              </div>
+    
+            </div>
           </div>
           <div class="row">
             <div class="col-lg-4 col-sm-4">
@@ -285,14 +378,154 @@ https://templatemo.com/tm-563-seo-dream
     </div>
   </div>
 
-  
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="left-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+        <div class="content">   
+          <h2 style="color: #42BFAD;">Here at Alefredo we aim to <strong>Aid and Imporove our students performance</strong></h2>
+      
+              <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                <p class="fw-bold">
+                  BOOST your exam grades to an A+ level with the help of more than 30,000 mock exams & questions
+                </p>
+                    <img class="img-fluid float-left"src="assets/images/why-us-2.jpg" alt="shop now">
+              </div>
+              <ul class="list-unstyled">
+                <li class="mb-3">
+                  <div class="card">
+                    <div class="card-header">
+                      <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed">
+                        <span>01</span> Thousands of mock exams available
+                        <i class="bx bx-chevron-down icon-show icon-pur"></i>
+                        <i class="bx bx-chevron-up icon-close icon-pur"></i>
+                      </a>
+                    </div>
+                
+                  </div>
+                </li>
+                <li class="mb-3">
+                  <div class="card">
+                    <div class="card-header">
+                      <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed">
+                        <span>02</span> Thousands of past papers are available for all systems, all codes, all variance all subjects and
+                        latest years.
+                        <i class="bx bx-chevron-down icon-show icon-pur"></i>
+                        <i class="bx bx-chevron-up icon-close icon-pur"></i>
+                      </a>
+                    </div>
+                    <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                      <div class="card-body">
+                        <p>
+                          USD 100,000 is the total extra income families have earned selling their used textbooks.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="mb-3">
+                  <div class="card">
+                    <div class="card-header">
+                      <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed">
+                        <span>03</span> Hundreds of Thousands JD Saved
+                        <i class="bx bx-chevron-down icon-show icon-pur"></i>
+                        <i class="bx bx-chevron-up icon-close icon-pur"></i>
+                      </a>
+                    </div>
+                    <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                      <div class="card-body">
+                        <p>
+                          USD 100,000 is the total extra income families have earned selling their used textbooks.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="FAQ'S" class="our-services section">
+  <div class="container">
+  <div class="card" style="background-color:#f7f7f7">
+    <div class="row">
+      <div class="col-lg-6 offset-lg-3">
+        <div class="section-heading wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
+        </div>
+        <h2 class="text-center fw-bold" style=" color:#42BFAD; ">Frequently Asked Questions</h2>
+        <ul class="list-unstyled center">
+          <li class="mb-3 mt-5 fw-bold ">
+            <div class="container mt-5">
+              <div class="card" style=" color:#42BFAD; font-weight: bold; border-color: #42BFAD;  ">
+                <div class="card-header" onmouseover="showText('additionalText3')" onmouseout="hideText('additionalText3')">
+                    <h5 class="mb-0 text-left" style="cursor: pointer; font-weight: bold; ">Who are we?</h5>
+                </div>
+                <div id="additionalText3" class="card-body" style="display: none; ">
+                    <p  style="font-weight: bold; color: #42BFAD;    background-color:aliceblue;">An educational platform aimed at helping students in schools following foreign educational systems achieve the best grades in their exams.
+                        The platform offers interactive exams with over 40,000 questions. Additionally,
+                        it sells summaries from top teachers, available in both digital and physical formats,
+                        and provides previous exam questions.
+                        Furthermore, it offers a service for buying and selling used textbooks related to international curricula.
+                    </p>
+                </div>
+            </div>
+            
+          </div>
+          
+          </li>
+          <li class="mb-3 text-center">
+            <div class="container mt-5">
+                <div class="card"style=" color:#42BFAD; font-weight: bold; border-color: #42BFAD;  ">
+                    <div class="card-header" onmouseover="showText('additionalText1')" onmouseout="hideText('additionalText1')">
+                        <h5 class="mb-0 text-left" style="cursor: pointer;font-weight: bold; color: #42BFAD;">Our Journey?</h5>
+                    </div>
+                    <div id="additionalText1" class="card-body" style="display: none;"style="font-weight: bold; color: #42BFAD;">
+                        <p style="font-weight: bold; color: #42BFAD;     background-color:aliceblue;">We started as an educational platform in 2020 with a brilliant idea centered around used books.
+                           However, the company has evolved significantly since then.
+                           Various services have been added, including curriculum summaries from teachers in both paper and digital formats. 
+                           Interactive exams have also been introduced to enhance the learning experience, 
+                           and our name has now become ALEFREDO EDTECH, which includes Alefredo exam and Alefredo books.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="mb-3 text-center">
+            <div class="container mt-5">
+                <div class="card"style=" color:#42BFAD; font-weight: bold; border-color: #42BFAD;  ">
+                    <div class="card-header" onmouseover="showText('additionalText2')" onmouseout="hideText('additionalText2')">
+                        <h5 class="mb-0 text-left" style="cursor: pointer;font-weight: bold; color: #42BFAD;">What are the platforms under the umbrella of Alefredo EdTech?</h5>
+                    </div>
+                    <div id="additionalText2" class="card-body" style="display: none;" >
+                        <ol class="text-left ">
+                            <li style="background-color:aliceblue;"><a href="https://alefredoexams.com/"></a>Alefredo Exams</li>
+                            <li style="    background-color:aliceblue;"><a href="https://alefredobooks.com/"></a>Alefredo Books</li>
+                            <li style="    background-color:aliceblue;"><a href="https://uae.alefredobooks.com/"></a>Alefredo Books (UAE)</li>
+                            <li style="    background-color:aliceblue;"><a href="https://ksa.alefredobooks.com/"></a>Alefredo Books (KSA)</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </li>
+        
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
   <div id="services" class="our-services section">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 offset-lg-3">
           <div class="section-heading wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
  
-            <h2>Our Clients who &amp; Trust Us </h2>
+            <h2 style="color:  #42BFAD;">Our Partners</h2>
+            <!-- <h2>Our Partners who &amp; Trust Us </h2> -->
           </div>
         </div>
       </div>
@@ -362,7 +595,14 @@ https://templatemo.com/tm-563-seo-dream
   
   </div>
 
-  <!-- <div id="portfolio" class="our-portfolio section">
+
+
+
+</div>
+
+
+    </div>
+      <!-- <div id="portfolio" class="our-portfolio section">
     <div class="container">
       <div class="row">
         <div class="col-lg-5">
@@ -478,7 +718,190 @@ https://templatemo.com/tm-563-seo-dream
       </div>
     </div>
   </div> -->
+  <div id="services" class="our-services section"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 offset-lg-3">
+        <div class="section-heading wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
+             
+                <h3 class="text-center fw-bold">Our Clients Said: </h3>
+                <br>
+                <div class="flex justify-center gap-6 flex-nowrap overflow-x-auto">
+                  <!-- Card 1 -->
+                  <div class="player p-6 flex-none">
+                      <div class="flex py-10">
+                          <div class="text-center">
+                              <img style="display: block; margin: 0 auto; height: auto; width: 80px;" src="https://img.icons8.com/3d-fluency/94/music.png" alt="music" />
+                              <div class="fw-bold text-gray-700">Parent, IGCSE, Jordan</div>
+                          </div>
+                      </div>
+                      <div class="mt-10">
+                          <div class="h-1 bg-gray-300">
+                              <div class="h-full w-2/3 bg-gray-600 hover:bg-gray-800"></div>
+                          </div>
+                      </div>
+                      <div class="flex items-center justify-center mt-10">
+                          <div class="play-icon w-20 h-auto  rounded-full text-gray-500 hover:text-gray-700 cursor-pointer" aria-label="Play" onclick="playAudio('audio-player-1')">
+                              <img height="auto" src="https://img.icons8.com/flat-round/50/play--v1.png" alt="play--v1" />
+                          </div>
+                          <div class="play-icon w-20 h-auto rounded-full text-gray-500 hover:text-gray-700 cursor-pointer ml-4" aria-label="Pause" onclick="pauseAudio('audio-player-1')" style="transform: translate(15px, -30px);">
+                              <img height="auto" src="https://img.icons8.com/ios-glyphs/30/pause--v1.png" alt="pause--v1" />
+                          </div>
+                      </div>
+                      <audio id="audio-player-1" src="assets/1.ogg" preload="auto"></audio>
+                  </div>
+              
+                  <!-- Card 2 -->
+                  <div class="player p-6 flex-none">
+                      <div class="flex py-10">
+                          <div class="text-center">
+                              <img style="display: block; margin: 0 auto; height: auto; width: 80px;" src="https://img.icons8.com/3d-fluency/94/music.png" alt="violin" />
+                              <div class="fw-bold text-gray-700">Parent, A-Level, UK</div>
+                          </div>
+                      </div>
+                      <div class="mt-10">
+                          <div class="h-1 bg-gray-300">
+                              <div class="h-full w-2/3 bg-gray-600 hover:bg-gray-800"></div>
+                          </div>
+                      </div>
+                      <div class="flex items-center justify-center mt-10">
+                          <div class="play-icon w-20 h-auto rounded-full text-gray-500 hover:text-gray-700 cursor-pointer" aria-label="Play" onclick="playAudio('audio-player-2')">
+                              <img height="auto" src="https://img.icons8.com/flat-round/50/play--v1.png" alt="play--v1" />
+                          </div>
+                          <div class="play-icon w-20 h-auto rounded-full text-gray-500 hover:text-gray-700 cursor-pointer ml-4" aria-label="Pause" onclick="pauseAudio('audio-player-2')" style="transform: translate(15px, -30px);">
+                              <img height="auto" src="https://img.icons8.com/ios-glyphs/30/pause--v1.png" alt="pause--v1" />
+                          </div>
+                      </div>
+                      <audio id="audio-player-2" src="assets/2.ogg" preload="auto"></audio>
+                  </div>
+              
+                  <!-- Card 3 -->
+                  <div class="player p-6 flex-none">
+                      <div class="flex py-10">
+                          <div class="text-center">
+                              <img style="display: block; margin: 0 auto; height: auto; width: 80px;" src="https://img.icons8.com/3d-fluency/94/music.png" alt="guitar" />
+                              <div class="fw-bold text-gray-700">Parent, SAT, USA</div>
+                          </div>
+                      </div>
+                      <div class="mt-10">
+                          <div class="h-1 bg-gray-300">
+                              <div class="h-full w-2/3 bg-gray-600 hover:bg-gray-800"></div>
+                          </div>
+                      </div>
+                      <div class="flex items-center justify-center mt-10">
+                          <div class="play-icon w-20 h-auto rounded-full text-gray-500 hover:text-gray-700 cursor-pointer" aria-label="Play" onclick="playAudio('audio-player-3')">
+                              <img height="auto" src="https://img.icons8.com/flat-round/50/play--v1.png" alt="play--v1" />
+                          </div>
+                          <div class="play-icon w-20 h-auto rounded-full text-gray-500 hover:text-gray-700 cursor-pointer ml-4" aria-label="Pause" onclick="pauseAudio('audio-player-3')" style="transform: translate(15px, -30px);">
+                              <img height="auto" src="https://img.icons8.com/ios-glyphs/30/pause--v1.png" alt="pause--v1" />
+                          </div>
+                      </div>
+                      <audio id="audio-player-3" src="assets/3.ogg" preload="auto"></audio>
+                  </div>
+              
+                  <!-- Card 4 -->
+                  <div class="player p-6 flex-none">
+                      <div class="flex py-10">
+                          <div class="text-center">
+                              <img style="display: block; margin: 0 auto; height: auto; width: 80px;" src="https://img.icons8.com/3d-fluency/94/music.png" alt="piano" />
+                              <div class="fw-bold text-gray-700">Parent, IB, Canada</div>
+                          </div>
+                      </div>
+                      <div class="mt-10">
+                          <div class="h-1 bg-gray-300">
+                              <div class="h-full w-2/3 bg-gray-600 hover:bg-gray-800"></div>
+                          </div>
+                      </div>
+                      <div class="flex items-center justify-center mt-10">
+                          <div class="play-icon w-20 h-auto rounded-full text-gray-500 hover:text-gray-700 cursor-pointer" aria-label="Play" onclick="playAudio('audio-player-4')">
+                              <img height="auto" src="https://img.icons8.com/flat-round/50/play--v1.png" alt="play--v1" />
+                          </div>
+                          <div class="play-icon w-20 h-auto rounded-full text-gray-500 hover:text-gray-700 cursor-pointer ml-4" aria-label="Pause" onclick="pauseAudio('audio-player-4')" style="transform: translate(15px, -30px);">
+                              <img height="auto" src="https://img.icons8.com/ios-glyphs/30/pause--v1.png" alt="pause--v1" />
+                          </div>
+                      </div>
+                      <audio id="audio-player-4" src="assets/4.ogg" preload="auto"></audio>
+                  </div>
+              </div>
+              
+            </div>
 
+            <script>
+                function playAudio(audioId) {
+                    const audioPlayer = document.getElementById(audioId);
+                    const allPlayers = document.querySelectorAll('audio');
+                    allPlayers.forEach(player => {
+                        if (player !== audioPlayer) {
+                            player.pause();
+                            player.currentTime = 0; // Reset other players
+                        }
+                    });
+                    audioPlayer.play();
+                }
+
+                function pauseAudio(audioId) {
+                    const audioPlayer = document.getElementById(audioId);
+                    audioPlayer.pause();
+                }
+            </script>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="services" class="our-services section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 offset-lg-3">
+        <div class="section-heading wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
+
+          <h2 style="color:  #42BFAD;">Our Social Impacts</h2>
+          <!-- <h2>Our Partners who &amp; Trust Us </h2> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-2">
+            <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                <img src="assets/images/1.png" class="d-block mx-auto img-fluid" alt="Ahli University" style="max-height: 150px; width: auto;">
+            </div>
+        </div>
+        <div class="col-lg-2">
+            <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+                <img src="assets/images/2.png" class="d-block mx-auto img-fluid" alt="Al Etiffaq International Academy" style="max-height: 150px; width: auto;">
+            </div>
+        </div>
+        <div class="col-lg-2">
+            <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img src="assets/images/3.png" class="d-block mx-auto img-fluid" alt="Al Mohamadia" style="max-height: 150px; width: auto;">
+            </div>
+        </div>
+        <div class="col-lg-2">
+            <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+                <img src="assets/images/4.png" class="d-block mx-auto img-fluid" alt="Al Ra'ed" style="max-height: 150px; width: auto;">
+            </div>
+        </div>
+        <div class="col-lg-2">
+            <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.7s">
+                <img src="assets/images/5.png" class="d-block mx-auto img-fluid" alt="Al Bayan" style="max-height: 150px; width: auto;">
+            </div>
+        </div>
+        <div class="col-lg-2">
+            <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.8s">
+                <img src="assets/images/6.png" class="d-block mx-auto img-fluid" alt="Al Farid" style="max-height: 150px; width: auto;">
+            </div>
+        </div>
+    
+   
+   
+    </div>
+</div>
+
+
+</div>
   <div id="contact" class="contact-us section">
     <div class="container">
       <div class="row">
@@ -583,5 +1006,19 @@ https://templatemo.com/tm-563-seo-dream
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.11/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    function showText(textId) {
+        const textDiv = document.getElementById(textId);
+        textDiv.style.display = 'block'; // Show text on hover
+    }
+
+    function hideText(textId) {
+        const textDiv = document.getElementById(textId);
+        textDiv.style.display = 'none'; // Hide text when not hovering
+    }
+    
+</script>
+
+
 </body>
 </html>
